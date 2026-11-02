@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rock Paper Scissors</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg"></div>
+<button id="soundBtn" class="sound" aria-pressed="true">♪ Sound on</button>
+<main id="app" data-page="home">
+  <h1 class="logo">Rock Paper Scissors</h1>
+  <p class="tag">Hello, welcome to the Rock, Paper, Scissors game!</p>
+  <div class="hero-icons" aria-hidden="true"><span>✊</span><span>✋</span><span>✌️</span></div>
+  <p class="prompt">Are you ready to play?</p>
+  <div class="row">
+    <button id="yesBtn" class="cta">Yes</button>
+    <button id="noBtn" class="cta ghost">No</button>
+  </div>
+  <p id="msg" class="msg" aria-live="polite"></p>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
